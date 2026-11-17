@@ -1,0 +1,41 @@
+{
+  "label": "final",
+  "generatedAt": "2026-11-16T18:01:36.605Z",
+  "cases": 48,
+  "runs": 1,
+  "limit": 3,
+  "latencyMs": {
+    "mean": 65.5,
+    "p50": 62.5,
+    "p95": 82.9,
+    "min": 53.5,
+    "max": 92.1
+  },
+  "nodeStartupMs": 40.5,
+  "buildCheckMs": 266.7,
+  "top1": 97.92,
+  "top3": 100,
+  "errors": 0,
+  "outputChars": {
+    "mean": 1757,
+    "p95": 2306
+  },
+  "indexBytes": 577826,
+  "indexMB": 0.55,
+  "flow": {
+    "cases": 5,
+    "searchRetrieveMeanMs": 143.3,
+    "briefMeanMs": 81.6,
+    "speedup": 1.76,
+    "searchRetrieveChars": 12194,
+    "briefChars": 11565,
+    "overheadCharsSavedPercent": 5.2,
+    "routingOverhead": {
+      "searchRetrieveChars": 733,
+      "briefChars": 103.4,
+      "reductionPercent": 85.9
+    },
+    "humanSearchOutputChars": 1116
+  },
+  "misses": []
+}

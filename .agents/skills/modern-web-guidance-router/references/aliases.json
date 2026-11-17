@@ -1,0 +1,2529 @@
+{
+  "accordion": {
+    "zh": [
+      "手风琴",
+      "折叠面板",
+      "折叠展开",
+      "常见问题"
+    ],
+    "en": [
+      "collapse",
+      "expandable",
+      "faq",
+      "details"
+    ]
+  },
+  "app-menus": {
+    "zh": [
+      "应用菜单",
+      "主菜单",
+      "菜单面板"
+    ],
+    "en": [
+      "application menu",
+      "overflow menu"
+    ]
+  },
+  "breadcrumbs": {
+    "zh": [
+      "面包屑",
+      "路径导航"
+    ],
+    "en": [
+      "breadcrumb",
+      "path navigation"
+    ]
+  },
+  "card": {
+    "zh": [
+      "卡片",
+      "卡片布局"
+    ],
+    "en": [
+      "card",
+      "tile",
+      "panel"
+    ]
+  },
+  "carousel": {
+    "zh": [
+      "轮播",
+      "走马灯",
+      "图片轮播"
+    ],
+    "en": [
+      "carousel",
+      "slider",
+      "slideshow",
+      "swiper"
+    ]
+  },
+  "checkbox": {
+    "zh": [
+      "复选框",
+      "勾选框",
+      "多选"
+    ],
+    "en": [
+      "checkbox",
+      "check box",
+      "indeterminate"
+    ]
+  },
+  "copy-button": {
+    "zh": [
+      "复制按钮",
+      "一键复制",
+      "复制到剪贴板"
+    ],
+    "en": [
+      "copy button",
+      "clipboard",
+      "copy to clipboard"
+    ]
+  },
+  "dark-mode-toggle": {
+    "zh": [
+      "暗色切换",
+      "主题切换按钮",
+      "明暗切换"
+    ],
+    "en": [
+      "theme toggle",
+      "dark mode toggle",
+      "color scheme switch"
+    ]
+  },
+  "dialog": {
+    "zh": [
+      "对话框",
+      "模态框",
+      "弹窗",
+      "确认框",
+      "模态对话框",
+      "删除确认",
+      "原生对话框"
+    ],
+    "en": [
+      "dialog",
+      "modal",
+      "popup",
+      "confirm",
+      "lightbox",
+      "alert dialog",
+      "native dialog"
+    ]
+  },
+  "hovercard": {
+    "zh": [
+      "悬浮卡",
+      "悬停卡片",
+      "悬浮详情"
+    ],
+    "en": [
+      "hover card",
+      "hovercard",
+      "preview card"
+    ]
+  },
+  "menu": {
+    "zh": [
+      "菜单",
+      "下拉菜单",
+      "操作菜单"
+    ],
+    "en": [
+      "menu",
+      "dropdown menu",
+      "action menu"
+    ]
+  },
+  "navbar": {
+    "zh": [
+      "导航栏",
+      "顶栏",
+      "顶部导航",
+      "吸顶导航"
+    ],
+    "en": [
+      "navbar",
+      "navigation bar",
+      "top bar",
+      "header"
+    ]
+  },
+  "navigation-drawer": {
+    "zh": [
+      "抽屉导航",
+      "侧滑菜单",
+      "侧边导航",
+      "汉堡菜单"
+    ],
+    "en": [
+      "navigation drawer",
+      "drawer",
+      "sidebar",
+      "hamburger",
+      "offcanvas"
+    ]
+  },
+  "persistent-app-tours": {
+    "zh": [
+      "新手引导",
+      "产品导览",
+      "引导提示"
+    ],
+    "en": [
+      "app tour",
+      "onboarding",
+      "walkthrough",
+      "coachmark"
+    ]
+  },
+  "persistent-toast-notifications": {
+    "zh": [
+      "通知",
+      "轻提示",
+      "toast",
+      "操作反馈",
+      "消息提醒"
+    ],
+    "en": [
+      "toast",
+      "notification",
+      "snackbar",
+      "toast notification"
+    ]
+  },
+  "progress-ring": {
+    "zh": [
+      "环形进度",
+      "圆形进度条",
+      "进度环"
+    ],
+    "en": [
+      "progress ring",
+      "circular progress",
+      "donut chart"
+    ]
+  },
+  "progress": {
+    "zh": [
+      "进度条",
+      "任务进度",
+      "上传进度"
+    ],
+    "en": [
+      "progress",
+      "progress bar",
+      "loading bar"
+    ]
+  },
+  "scrollspy": {
+    "zh": [
+      "滚动高亮",
+      "目录高亮",
+      "当前章节高亮"
+    ],
+    "en": [
+      "scrollspy",
+      "scroll spy",
+      "active section",
+      "table of contents"
+    ]
+  },
+  "spinner": {
+    "zh": [
+      "加载转圈",
+      "loading",
+      "加载指示器",
+      "转菊花"
+    ],
+    "en": [
+      "spinner",
+      "loading spinner",
+      "busy indicator",
+      "loader"
+    ]
+  },
+  "stack-drill-down": {
+    "zh": [
+      "层级下钻",
+      "移动端导航返回",
+      "全屏层级导航"
+    ],
+    "en": [
+      "drill down",
+      "nested navigation",
+      "stack navigation"
+    ]
+  },
+  "tabs": {
+    "zh": [
+      "标签页",
+      "选项卡",
+      "tab 切换"
+    ],
+    "en": [
+      "tabs",
+      "tab panel",
+      "tab bar"
+    ]
+  },
+  "toolbar": {
+    "zh": [
+      "工具栏",
+      "操作栏",
+      "工具条"
+    ],
+    "en": [
+      "toolbar",
+      "action bar",
+      "tool bar"
+    ]
+  },
+  "carousel-slide-effects": {
+    "zh": [
+      "轮播动效",
+      "轮播切换效果"
+    ],
+    "en": [
+      "carousel effect",
+      "slide effect"
+    ]
+  },
+  "component-specific-light-dark-theme": {
+    "zh": [
+      "组件级明暗主题",
+      "局部暗色"
+    ],
+    "en": [
+      "component theme",
+      "scoped theme"
+    ]
+  },
+  "icons": {
+    "zh": [
+      "图标",
+      "图标按钮",
+      "SVG 图标"
+    ],
+    "en": [
+      "icon",
+      "icon button",
+      "svg icon"
+    ]
+  },
+  "position-aware-tooltips": {
+    "zh": [
+      "气泡提示",
+      "提示定位",
+      "浮层定位"
+    ],
+    "en": [
+      "tooltip position",
+      "popover positioning"
+    ]
+  },
+  "pull-to-reveal": {
+    "zh": [
+      "下拉显现",
+      "下拉刷新",
+      "下拉展开"
+    ],
+    "en": [
+      "pull to reveal",
+      "pull to refresh"
+    ]
+  },
+  "responsive-table": {
+    "zh": [
+      "响应式表格",
+      "移动端表格",
+      "表格适配"
+    ],
+    "en": [
+      "responsive table",
+      "mobile table"
+    ]
+  },
+  "scroll-position-aware-elements": {
+    "zh": [
+      "滚动位置感知",
+      "滚动联动"
+    ],
+    "en": [
+      "scroll position aware",
+      "scroll linked"
+    ]
+  },
+  "scroll-progress-indicator": {
+    "zh": [
+      "阅读进度条",
+      "滚动进度"
+    ],
+    "en": [
+      "scroll progress",
+      "reading progress"
+    ]
+  },
+  "scrollability-affordance-hints": {
+    "zh": [
+      "可滚动提示",
+      "滚动方向提示",
+      "渐隐提示可滚动"
+    ],
+    "en": [
+      "scroll affordance",
+      "scroll hint"
+    ]
+  },
+  "shrinking-header-on-scroll": {
+    "zh": [
+      "滚动收缩头部",
+      "滚动隐藏头部",
+      "大标题收缩"
+    ],
+    "en": [
+      "shrinking header",
+      "collapsing header",
+      "sticky header shrink"
+    ]
+  },
+  "single-line-overflow": {
+    "zh": [
+      "单行溢出",
+      "省略号",
+      "文本截断"
+    ],
+    "en": [
+      "text overflow",
+      "ellipsis",
+      "truncate"
+    ]
+  },
+  "state-aware-sticky-headers": {
+    "zh": [
+      "粘性头部",
+      "吸顶头部",
+      "粘性导航",
+      "吸顶导航栏",
+      "吸顶"
+    ],
+    "en": [
+      "sticky header",
+      "state aware sticky",
+      "sticky nav"
+    ]
+  },
+  "viewport-aware-dropdowns": {
+    "zh": [
+      "下拉定位",
+      "视口边缘自适应",
+      "浮层翻转"
+    ],
+    "en": [
+      "dropdown positioning",
+      "flip",
+      "viewport aware"
+    ]
+  },
+  "2d-panning": {
+    "zh": [
+      "画布平移",
+      "拖拽平移",
+      "缩略图导航"
+    ],
+    "en": [
+      "panning",
+      "pan",
+      "2d pan"
+    ]
+  },
+  "anchor-positioning-tab-underline": {
+    "zh": [
+      "标签下划线滑动",
+      "锚点定位下划线"
+    ],
+    "en": [
+      "tab underline",
+      "anchor positioning underline"
+    ]
+  },
+  "animate-element-entry-exit": {
+    "zh": [
+      "进出场动画",
+      "入场动画",
+      "退场动画",
+      "显隐过渡"
+    ],
+    "en": [
+      "enter animation",
+      "exit animation",
+      "entry exit"
+    ]
+  },
+  "animate-to-from-top-layer": {
+    "zh": [
+      "弹层动画",
+      "顶层元素动画",
+      "对话框打开动画",
+      "弹窗动画",
+      "弹窗打开动画"
+    ],
+    "en": [
+      "top layer animation",
+      "dialog animation",
+      "popover animation"
+    ]
+  },
+  "carousel-snap-highlights": {
+    "zh": [
+      "轮播吸附",
+      "滚动吸附高亮"
+    ],
+    "en": [
+      "carousel snap",
+      "snap highlight"
+    ]
+  },
+  "consistent-cross-document-transitions": {
+    "zh": [
+      "跨页面过渡",
+      "多页应用过渡"
+    ],
+    "en": [
+      "cross document transition",
+      "mta"
+    ]
+  },
+  "cross-document-transitions": {
+    "zh": [
+      "跨文档过渡",
+      "页面切换动画",
+      "MPA 过渡",
+      "页面切换",
+      "多页应用切换",
+      "页面跳转"
+    ],
+    "en": [
+      "cross document view transition",
+      "page transition",
+      "between pages",
+      "multi page"
+    ]
+  },
+  "custom-button-actions": {
+    "zh": [
+      "按钮命令",
+      "声明式按钮行为"
+    ],
+    "en": [
+      "command button",
+      "commandfor",
+      "invoker"
+    ]
+  },
+  "declarative-dialog-popover-control": {
+    "zh": [
+      "声明式弹层控制",
+      "按钮打开弹窗",
+      "commandfor"
+    ],
+    "en": [
+      "declarative dialog",
+      "popovertarget",
+      "commandfor"
+    ]
+  },
+  "directional-navigation-transitions": {
+    "zh": [
+      "方向导航过渡",
+      "前进后退动画"
+    ],
+    "en": [
+      "directional transition",
+      "navigation direction"
+    ]
+  },
+  "drag-and-drop": {
+    "zh": [
+      "拖放",
+      "拖拽排序",
+      "拖拽列表",
+      "拖拽交换"
+    ],
+    "en": [
+      "drag and drop",
+      "dnd",
+      "sortable"
+    ]
+  },
+  "drag": {
+    "zh": [
+      "拖拽",
+      "拖动元素",
+      "拖拽手势"
+    ],
+    "en": [
+      "drag",
+      "dragging",
+      "pointer drag"
+    ]
+  },
+  "dynamic-sibling-animations": {
+    "zh": [
+      "兄弟元素动画",
+      "列表增删动画",
+      "交错动画"
+    ],
+    "en": [
+      "sibling animation",
+      "list animation",
+      "stagger"
+    ]
+  },
+  "dynamic-sort": {
+    "zh": [
+      "动态排序动画",
+      "列表重排动画"
+    ],
+    "en": [
+      "sort animation",
+      "reorder animation"
+    ]
+  },
+  "group-element-transitions": {
+    "zh": [
+      "群组过渡",
+      "共享元素过渡",
+      "列表到详情"
+    ],
+    "en": [
+      "group transition",
+      "shared element",
+      "list to detail"
+    ]
+  },
+  "highlight-text-ranges": {
+    "zh": [
+      "文本高亮",
+      "搜索命中高亮",
+      "自定义高亮"
+    ],
+    "en": [
+      "custom highlight",
+      "text highlight",
+      "search highlight"
+    ]
+  },
+  "interactive-content-reveal": {
+    "zh": [
+      "内容揭示",
+      "滚动揭示",
+      "逐段出现"
+    ],
+    "en": [
+      "content reveal",
+      "reveal on scroll"
+    ]
+  },
+  "interest-triggered-action-previews": {
+    "zh": [
+      "悬停预览",
+      "悬停预加载",
+      "interestfor"
+    ],
+    "en": [
+      "interest invoker",
+      "hover preview",
+      "interestfor"
+    ]
+  },
+  "interest-triggered-tooltips": {
+    "zh": [
+      "悬停提示",
+      "悬停显示提示"
+    ],
+    "en": [
+      "interest tooltip",
+      "hover tooltip"
+    ]
+  },
+  "light-dismiss-a-dialog": {
+    "zh": [
+      "点击外部关闭",
+      "轻关闭",
+      "点击遮罩关闭"
+    ],
+    "en": [
+      "light dismiss",
+      "dismiss on outside click",
+      "click outside close"
+    ]
+  },
+  "motion": {
+    "zh": [
+      "动效",
+      "动画原则",
+      "运动"
+    ],
+    "en": [
+      "motion",
+      "animation principles",
+      "easing"
+    ]
+  },
+  "move-dom-element-without-losing-state": {
+    "zh": [
+      "移动DOM保留状态",
+      "moveBefore",
+      "重排DOM"
+    ],
+    "en": [
+      "moveBefore",
+      "move element",
+      "preserve state"
+    ]
+  },
+  "parallax-scroll-effects": {
+    "zh": [
+      "视差滚动",
+      "视差效果"
+    ],
+    "en": [
+      "parallax",
+      "parallax scroll"
+    ]
+  },
+  "persistent-top-layer-ui": {
+    "zh": [
+      "常驻顶层",
+      "顶层浮层",
+      "top layer 常驻"
+    ],
+    "en": [
+      "top layer",
+      "persistent popover"
+    ]
+  },
+  "physics-based-easing": {
+    "zh": [
+      "物理缓动",
+      "弹簧动画",
+      "弹性缓动"
+    ],
+    "en": [
+      "physics easing",
+      "spring",
+      "linear easing"
+    ]
+  },
+  "platform-controls-dismiss-dialog": {
+    "zh": [
+      "平台控件关闭弹窗",
+      "关闭按钮处理"
+    ],
+    "en": [
+      "dialog close",
+      "closedby",
+      "platform controls"
+    ]
+  },
+  "prevent-page-scroll-under-modal-dialog": {
+    "zh": [
+      "模态滚动锁定",
+      "背景滚动禁用",
+      "滚动穿透"
+    ],
+    "en": [
+      "scroll lock",
+      "overscroll-behavior",
+      "background scroll"
+    ]
+  },
+  "same-document-transitions": {
+    "zh": [
+      "同文档过渡",
+      "SPA 过渡",
+      "单页切换动画",
+      "站内切换",
+      "单页应用切换"
+    ],
+    "en": [
+      "same document transition",
+      "spa transition",
+      "view transition"
+    ]
+  },
+  "scoped-component-transitions": {
+    "zh": [
+      "局部过渡",
+      "组件内过渡"
+    ],
+    "en": [
+      "scoped transition",
+      "element scoped view transition"
+    ]
+  },
+  "scroll-completion-effects": {
+    "zh": [
+      "滚动完成效果",
+      "滚动结束回调"
+    ],
+    "en": [
+      "scrollend",
+      "scroll completion"
+    ]
+  },
+  "scroll-entry-exit-effects": {
+    "zh": [
+      "滚动进出场",
+      "滚动触发动画",
+      "滚动出现动画",
+      "滚动到元素出现"
+    ],
+    "en": [
+      "scroll entry exit",
+      "scroll animation",
+      "reveal on scroll"
+    ]
+  },
+  "scroll-snap-realtime-feedback": {
+    "zh": [
+      "吸附实时反馈",
+      "轮播实时反馈"
+    ],
+    "en": [
+      "snap feedback",
+      "snap events"
+    ]
+  },
+  "scroll-snap-state-sync": {
+    "zh": [
+      "吸附状态同步",
+      "当前页同步"
+    ],
+    "en": [
+      "snap state",
+      "snap sync"
+    ]
+  },
+  "scroll-target-on-load": {
+    "zh": [
+      "加载定位",
+      "锚点滚动",
+      "深链定位"
+    ],
+    "en": [
+      "scroll initial target",
+      "scroll on load",
+      "deep link scroll"
+    ]
+  },
+  "scrollytelling": {
+    "zh": [
+      "滚动叙事",
+      "滚动故事",
+      "滚动长图"
+    ],
+    "en": [
+      "scrollytelling",
+      "scroll narrative"
+    ]
+  },
+  "search-hidden-content": {
+    "zh": [
+      "搜索隐藏内容",
+      "页内搜索展开"
+    ],
+    "en": [
+      "hidden until found",
+      "search hidden content",
+      "find in page"
+    ]
+  },
+  "sortable-table": {
+    "zh": [
+      "可排序表格",
+      "表格排序"
+    ],
+    "en": [
+      "sortable table",
+      "table sort"
+    ]
+  },
+  "spatial-navigation": {
+    "zh": [
+      "空间导航",
+      "遥控器导航",
+      "方向键导航"
+    ],
+    "en": [
+      "spatial navigation",
+      "tv navigation",
+      "arrow navigation"
+    ]
+  },
+  "swipe-to-remove": {
+    "zh": [
+      "滑动删除",
+      "侧滑删除"
+    ],
+    "en": [
+      "swipe to remove",
+      "swipe delete"
+    ]
+  },
+  "swipe-to-reveal": {
+    "zh": [
+      "滑动显现",
+      "侧滑操作",
+      "滑动露出按钮"
+    ],
+    "en": [
+      "swipe to reveal",
+      "swipe actions"
+    ]
+  },
+  "animate-to-intrinsic-sizes": {
+    "zh": [
+      "动画到内容尺寸",
+      "高度自适应动画",
+      "auto高度动画"
+    ],
+    "en": [
+      "animate to auto",
+      "intrinsic size animation",
+      "calc-size"
+    ]
+  },
+  "atrule-support-conditionals": {
+    "zh": [
+      "特性查询",
+      "渐进增强条件",
+      "@supports 分支"
+    ],
+    "en": [
+      "@supports",
+      "conditional at-rule",
+      "feature query"
+    ]
+  },
+  "calculate-with-intrinsic-sizes": {
+    "zh": [
+      "内容尺寸计算",
+      "calc-size",
+      "尺寸参与计算"
+    ],
+    "en": [
+      "calc-size",
+      "intrinsic size calc"
+    ]
+  },
+  "child-state-based-styling": {
+    "zh": [
+      "父元素根据子状态变色",
+      "子状态驱动样式",
+      ":has 父选择",
+      "根据子元素状态改父元素",
+      "父元素样式"
+    ],
+    "en": [
+      "parent state styling",
+      "has parent",
+      ":has"
+    ]
+  },
+  "content-based-styling": {
+    "zh": [
+      "内容感知样式",
+      "根据内容数量样式"
+    ],
+    "en": [
+      "content based styling",
+      "sibling-count"
+    ]
+  },
+  "css-layout": {
+    "zh": [
+      "布局方案",
+      "页面布局",
+      "现代布局"
+    ],
+    "en": [
+      "layout",
+      "modern layout"
+    ]
+  },
+  "css": {
+    "zh": [
+      "CSS 架构",
+      "样式规范",
+      "CSS 最佳实践",
+      "样式组织"
+    ],
+    "en": [
+      "css architecture",
+      "style architecture",
+      "css best practices"
+    ]
+  },
+  "design-token-reactivity": {
+    "zh": [
+      "设计令牌",
+      "CSS 变量响应",
+      "主题变量"
+    ],
+    "en": [
+      "design tokens",
+      "custom properties",
+      "token reactivity"
+    ]
+  },
+  "dynamic-sibling-styling": {
+    "zh": [
+      "兄弟元素样式",
+      "相邻元素样式",
+      "根据兄弟数量"
+    ],
+    "en": [
+      "sibling styling",
+      "sibling-index"
+    ]
+  },
+  "fluid-scaling": {
+    "zh": [
+      "流体缩放",
+      "自适应字号",
+      "clamp 缩放"
+    ],
+    "en": [
+      "fluid scaling",
+      "fluid type",
+      "clamp"
+    ]
+  },
+  "individual-transform-properties": {
+    "zh": [
+      "独立变换属性",
+      "translate rotate scale 分开写"
+    ],
+    "en": [
+      "individual transforms",
+      "translate rotate scale"
+    ]
+  },
+  "overflow-clipping-control": {
+    "zh": [
+      "裁剪控制",
+      "overflow-clip-margin",
+      "内容溢出裁剪"
+    ],
+    "en": [
+      "overflow clip",
+      "clip margin"
+    ]
+  },
+  "reduce-style-repetition": {
+    "zh": [
+      "样式复用",
+      "减少重复样式",
+      "样式去重"
+    ],
+    "en": [
+      "less repetition",
+      "style reuse",
+      "css duplication"
+    ]
+  },
+  "responsive-design": {
+    "zh": [
+      "响应式设计",
+      "自适应布局",
+      "多端适配"
+    ],
+    "en": [
+      "responsive design",
+      "responsive layout",
+      "breakpoints"
+    ]
+  },
+  "selector-atrule-combinations": {
+    "zh": [
+      "选择器组合",
+      "嵌套选择器技巧",
+      "at-rule 嵌套"
+    ],
+    "en": [
+      "selector at-rule",
+      "css nesting selectors"
+    ]
+  },
+  "size-aware-styling": {
+    "zh": [
+      "容器查询",
+      "按容器尺寸适配",
+      "组件响应式"
+    ],
+    "en": [
+      "container query",
+      "container queries",
+      "size aware"
+    ]
+  },
+  "style-parent-with-has": {
+    "zh": [
+      "父选择器",
+      "根据子元素状态改父样式"
+    ],
+    "en": [
+      "style parent",
+      ":has parent"
+    ]
+  },
+  "usage-aware-component-variations": {
+    "zh": [
+      "用法感知变体",
+      "组件变体样式"
+    ],
+    "en": [
+      "component variations",
+      "variant styling"
+    ]
+  },
+  "adapt-scrollbar-to-contrast-preferences": {
+    "zh": [
+      "高对比滚动条",
+      "对比度偏好滚动条"
+    ],
+    "en": [
+      "contrast scrollbar",
+      "forced colors scrollbar"
+    ]
+  },
+  "apply-webgl-shaders": {
+    "zh": [
+      "WebGL 着色器",
+      "自定义着色器效果",
+      "GPU 效果"
+    ],
+    "en": [
+      "webgl shader",
+      "shader effect"
+    ]
+  },
+  "browser-ui-theming": {
+    "zh": [
+      "浏览器UI主题",
+      "选区与滚动条主题",
+      "原生控件配色"
+    ],
+    "en": [
+      "browser ui theming",
+      "form control theming",
+      "accent-color"
+    ]
+  },
+  "color": {
+    "zh": [
+      "颜色系统",
+      "配色",
+      "对比度",
+      "明暗配色"
+    ],
+    "en": [
+      "color",
+      "palette",
+      "contrast",
+      "color scheme"
+    ]
+  },
+  "complex-shapes": {
+    "zh": [
+      "复杂形状",
+      "clip-path 形状",
+      "异形裁剪"
+    ],
+    "en": [
+      "complex shapes",
+      "clip-path",
+      "blob shape"
+    ]
+  },
+  "contrast-color": {
+    "zh": [
+      "对比色",
+      "自动文字颜色",
+      "背景色上取可读文字色"
+    ],
+    "en": [
+      "contrast-color",
+      "readable text color"
+    ]
+  },
+  "custom-text-decorations": {
+    "zh": [
+      "文本装饰线",
+      "下划线样式",
+      "删除线动画"
+    ],
+    "en": [
+      "text decoration",
+      "underline style",
+      "text decoration animation"
+    ]
+  },
+  "customize-scrollbar-color-and-thickness": {
+    "zh": [
+      "滚动条颜色",
+      "滚动条粗细",
+      "自定义滚动条",
+      "滚动条样式"
+    ],
+    "en": [
+      "scrollbar-color",
+      "scrollbar-width",
+      "custom scrollbar"
+    ]
+  },
+  "dark-mode": {
+    "zh": [
+      "暗色模式",
+      "深色模式",
+      "夜间模式",
+      "主题色"
+    ],
+    "en": [
+      "dark mode",
+      "dark theme",
+      "light-dark",
+      "color-scheme"
+    ]
+  },
+  "equal-width-text-lines": {
+    "zh": [
+      "等宽文本行",
+      "标题每行等宽",
+      "叠排标题"
+    ],
+    "en": [
+      "equal width text",
+      "stacked headline"
+    ]
+  },
+  "export-html-media-from-canvas": {
+    "zh": [
+      "导出画布",
+      "HTML 转图片",
+      "截图导出"
+    ],
+    "en": [
+      "export canvas",
+      "html to image",
+      "capture"
+    ]
+  },
+  "expose-canvas-content-to-browser-features": {
+    "zh": [
+      "画布可访问",
+      "画布内容可搜索",
+      "canvas 语义"
+    ],
+    "en": [
+      "canvas accessibility",
+      "canvas content"
+    ]
+  },
+  "improve-text-layout-and-legibility": {
+    "zh": [
+      "文本排版",
+      "换行平衡",
+      "标题断行"
+    ],
+    "en": [
+      "text layout",
+      "text wrap balance",
+      "legibility"
+    ]
+  },
+  "interactive-content-in-3d-scenes": {
+    "zh": [
+      "3D 场景交互",
+      "3D 中嵌入HTML"
+    ],
+    "en": [
+      "3d scene",
+      "html in 3d"
+    ]
+  },
+  "precise-text-alignment": {
+    "zh": [
+      "文本精确对齐",
+      "文字与图标对齐",
+      "视觉对齐"
+    ],
+    "en": [
+      "text alignment",
+      "text-box",
+      "optical alignment"
+    ]
+  },
+  "shaped-cutouts": {
+    "zh": [
+      "形状镂空",
+      "缺口形状",
+      "组合裁切"
+    ],
+    "en": [
+      "cutout",
+      "knockout",
+      "notch shape"
+    ]
+  },
+  "soft-edge-content-fade": {
+    "zh": [
+      "边缘渐隐",
+      "内容淡出遮罩",
+      "渐隐提示"
+    ],
+    "en": [
+      "content fade",
+      "soft edge",
+      "mask fade"
+    ]
+  },
+  "typography": {
+    "zh": [
+      "排版",
+      "字体",
+      "行高",
+      "字号"
+    ],
+    "en": [
+      "typography",
+      "font",
+      "line-height",
+      "font-size"
+    ]
+  },
+  "visual-effects": {
+    "zh": [
+      "视觉效果",
+      "渐变",
+      "阴影",
+      "纹理图案"
+    ],
+    "en": [
+      "visual effects",
+      "gradient",
+      "box-shadow",
+      "patterns"
+    ]
+  },
+  "visually-stable-font-fallbacks": {
+    "zh": [
+      "字体回退",
+      "字体切换不跳动",
+      "FOUT"
+    ],
+    "en": [
+      "font fallback",
+      "font swap",
+      "stable fallback"
+    ]
+  },
+  "visually-stable-mixed-fonts": {
+    "zh": [
+      "混排字体",
+      "中英混排",
+      "多字体一致"
+    ],
+    "en": [
+      "mixed fonts",
+      "font mixing"
+    ]
+  },
+  "visually-texture-content": {
+    "zh": [
+      "纹理质感",
+      "做旧效果",
+      "材质感"
+    ],
+    "en": [
+      "texture",
+      "grain",
+      "weathering"
+    ]
+  },
+  "animated-select-picker": {
+    "zh": [
+      "选择器动画",
+      "下拉选择动画"
+    ],
+    "en": [
+      "select animation",
+      "picker animation"
+    ]
+  },
+  "autofill-address-form": {
+    "zh": [
+      "地址自动填充",
+      "收货地址表单"
+    ],
+    "en": [
+      "autofill address",
+      "shipping address"
+    ]
+  },
+  "autofill-highlight-inputs": {
+    "zh": [
+      "自动填充高亮",
+      ":autofill 样式",
+      "黄底输入框"
+    ],
+    "en": [
+      "autofill highlight",
+      "autofill styling"
+    ]
+  },
+  "autofill-payment-form": {
+    "zh": [
+      "支付表单自动填充",
+      "信用卡表单"
+    ],
+    "en": [
+      "payment autofill",
+      "credit card form"
+    ]
+  },
+  "autofill-sign-in-form": {
+    "zh": [
+      "登录表单自动填充",
+      "密码管理器",
+      "密码自动填充",
+      "密码管理器自动填充"
+    ],
+    "en": [
+      "sign in autofill",
+      "login form",
+      "password manager autofill"
+    ]
+  },
+  "autofill-sign-up-form": {
+    "zh": [
+      "注册表单自动填充"
+    ],
+    "en": [
+      "sign up autofill"
+    ]
+  },
+  "brand-consistent-forms": {
+    "zh": [
+      "品牌化表单",
+      "表单样式统一"
+    ],
+    "en": [
+      "brand consistent form",
+      "form styling"
+    ]
+  },
+  "branded-select-styling": {
+    "zh": [
+      "选择框样式",
+      "select 美化"
+    ],
+    "en": [
+      "select styling",
+      "branded select"
+    ]
+  },
+  "custom-select-picker-layouts": {
+    "zh": [
+      "自定义选择器布局",
+      "可定制 select"
+    ],
+    "en": [
+      "customizable select",
+      "select picker"
+    ]
+  },
+  "form-fields-automatically-fit-contents": {
+    "zh": [
+      "输入框自适应宽度",
+      "字段自动撑开"
+    ],
+    "en": [
+      "field sizing",
+      "auto size input",
+      "fit content"
+    ]
+  },
+  "forms": {
+    "zh": [
+      "表单规范",
+      "表单最佳实践",
+      "表单架构"
+    ],
+    "en": [
+      "forms",
+      "form best practices"
+    ]
+  },
+  "ime-safe-enter-submit": {
+    "zh": [
+      "输入法回车提交",
+      "中文输入法回车",
+      "IME 组合输入"
+    ],
+    "en": [
+      "ime safe",
+      "composition event",
+      "enter submit"
+    ]
+  },
+  "required-field-feedback": {
+    "zh": [
+      "必填反馈",
+      "必填提示",
+      "required 样式"
+    ],
+    "en": [
+      "required field",
+      "required feedback"
+    ]
+  },
+  "rich-media-picker": {
+    "zh": [
+      "富媒体选择",
+      "图片选择器",
+      "媒体上传选择"
+    ],
+    "en": [
+      "media picker",
+      "file picker"
+    ]
+  },
+  "select-menu-interaction": {
+    "zh": [
+      "选择菜单交互",
+      "select 菜单键盘"
+    ],
+    "en": [
+      "select menu",
+      "select interaction"
+    ]
+  },
+  "slider": {
+    "zh": [
+      "滑块",
+      "范围滑块",
+      "滑动输入"
+    ],
+    "en": [
+      "slider",
+      "range input",
+      "range slider"
+    ]
+  },
+  "sms-otp-form": {
+    "zh": [
+      "短信验证码",
+      "OTP 输入",
+      "验证码表单"
+    ],
+    "en": [
+      "sms otp",
+      "otp input",
+      "verification code"
+    ]
+  },
+  "switch": {
+    "zh": [
+      "开关",
+      "切换开关",
+      "switch 控件"
+    ],
+    "en": [
+      "switch",
+      "toggle switch"
+    ]
+  },
+  "validate-input-after-interaction": {
+    "zh": [
+      "交互后校验",
+      "失焦校验",
+      "user-invalid"
+    ],
+    "en": [
+      "validate after interaction",
+      "user-invalid",
+      "form validation timing"
+    ]
+  },
+  "accessibility": {
+    "zh": [
+      "可访问性",
+      "无障碍",
+      "a11y",
+      "焦点可见",
+      "键盘焦点",
+      "焦点管理"
+    ],
+    "en": [
+      "accessibility",
+      "a11y",
+      "screen reader"
+    ]
+  },
+  "accessible-error-announcement": {
+    "zh": [
+      "错误播报",
+      "表单错误无障碍",
+      "表单提交报错",
+      "aria-invalid"
+    ],
+    "en": [
+      "error announcement",
+      "aria-invalid"
+    ]
+  },
+  "accessible-generated-content": {
+    "zh": [
+      "生成内容可访问",
+      "伪元素替代文本"
+    ],
+    "en": [
+      "generated content accessibility",
+      "alt for pseudo"
+    ]
+  },
+  "respect-os-text-scale": {
+    "zh": [
+      "系统字号缩放",
+      "文字大小偏好",
+      "rem 缩放"
+    ],
+    "en": [
+      "text scale",
+      "os text size"
+    ]
+  },
+  "performance": {
+    "zh": [
+      "性能优化",
+      "性能最佳实践",
+      "Core Web Vitals"
+    ],
+    "en": [
+      "performance",
+      "core web vitals",
+      "web performance"
+    ]
+  },
+  "break-up-long-tasks": {
+    "zh": [
+      "长任务拆分",
+      "主线程卡顿",
+      "scheduler.yield"
+    ],
+    "en": [
+      "long task",
+      "yield",
+      "main thread blocking"
+    ]
+  },
+  "identify-inp-causes": {
+    "zh": [
+      "INP 定位",
+      "交互延迟",
+      "响应慢"
+    ],
+    "en": [
+      "inp",
+      "interaction to next paint",
+      "slow interaction"
+    ]
+  },
+  "optimize-image-priority": {
+    "zh": [
+      "图片优先级",
+      "首图优化",
+      "fetchpriority"
+    ],
+    "en": [
+      "image priority",
+      "fetchpriority",
+      "lcp image"
+    ]
+  },
+  "optimize-preload-priority": {
+    "zh": [
+      "预加载优先级",
+      "preload 优化"
+    ],
+    "en": [
+      "preload priority",
+      "preload"
+    ]
+  },
+  "optimize-script-priority": {
+    "zh": [
+      "脚本优先级",
+      "脚本加载优化"
+    ],
+    "en": [
+      "script priority",
+      "async defer"
+    ]
+  },
+  "lazy-load-video-and-audio": {
+    "zh": [
+      "音视频懒加载",
+      "懒加载视频"
+    ],
+    "en": [
+      "lazy load video",
+      "lazy media"
+    ]
+  },
+  "defer-rendering-heavy-content": {
+    "zh": [
+      "延迟渲染重内容",
+      "content-visibility"
+    ],
+    "en": [
+      "defer rendering",
+      "content-visibility"
+    ]
+  },
+  "deliver-optimized-decorative-images": {
+    "zh": [
+      "装饰图优化",
+      "背景图优化"
+    ],
+    "en": [
+      "decorative image",
+      "optimized image"
+    ]
+  },
+  "deprioritize-background-fetches": {
+    "zh": [
+      "后台请求降级",
+      "低优先级请求"
+    ],
+    "en": [
+      "deprioritize fetch",
+      "priority hints"
+    ]
+  },
+  "detect-initial-visibility-state": {
+    "zh": [
+      "首屏可见性检测",
+      "初始可见状态"
+    ],
+    "en": [
+      "initial visibility",
+      "visibility state"
+    ]
+  },
+  "faster-spa-view-transitions": {
+    "zh": [
+      "SPA 过渡优化",
+      "视图过渡性能"
+    ],
+    "en": [
+      "spa view transition performance"
+    ]
+  },
+  "improve-next-page-load-performance": {
+    "zh": [
+      "下一页加载优化",
+      "预取"
+    ],
+    "en": [
+      "next page load",
+      "prefetch",
+      "speculation rules"
+    ]
+  },
+  "interaction-paint-timing": {
+    "zh": [
+      "交互绘制时间",
+      "交互性能指标"
+    ],
+    "en": [
+      "interaction paint timing",
+      "event timing"
+    ]
+  },
+  "interactions-in-complex-layouts": {
+    "zh": [
+      "复杂布局交互性能",
+      "布局抖动"
+    ],
+    "en": [
+      "complex layout interaction",
+      "layout thrash"
+    ]
+  },
+  "out-of-order-html-streaming": {
+    "zh": [
+      "HTML 流式渲染",
+      "乱序流式输出"
+    ],
+    "en": [
+      "html streaming",
+      "out of order streaming"
+    ]
+  },
+  "schedule-tasks-by-priority": {
+    "zh": [
+      "任务优先级调度",
+      "scheduler.postTask"
+    ],
+    "en": [
+      "scheduler",
+      "task priority",
+      "postTask"
+    ]
+  },
+  "batch-analytics-events": {
+    "zh": [
+      "埋点批量上报",
+      "分析事件批处理"
+    ],
+    "en": [
+      "batch analytics",
+      "telemetry batching"
+    ]
+  },
+  "full-session-analytics": {
+    "zh": [
+      "会话埋点",
+      "全量行为分析"
+    ],
+    "en": [
+      "session analytics"
+    ]
+  },
+  "identify-heavy-scripts": {
+    "zh": [
+      "重脚本识别",
+      "长动画帧",
+      "脚本性能"
+    ],
+    "en": [
+      "heavy scripts",
+      "long animation frame"
+    ]
+  },
+  "html": {
+    "zh": [
+      "HTML 规范",
+      "HTML 语义",
+      "HTML 最佳实践"
+    ],
+    "en": [
+      "html",
+      "semantic html"
+    ]
+  },
+  "custom-elements": {
+    "zh": [
+      "自定义元素",
+      "custom element",
+      "Web 组件"
+    ],
+    "en": [
+      "custom elements",
+      "web components"
+    ]
+  },
+  "web-components": {
+    "zh": [
+      "Web 组件",
+      "组件封装",
+      "原生组件"
+    ],
+    "en": [
+      "web components",
+      "shadow dom",
+      "custom elements"
+    ]
+  },
+  "shadow-dom": {
+    "zh": [
+      "Shadow DOM",
+      "影子 DOM",
+      "样式隔离"
+    ],
+    "en": [
+      "shadow dom",
+      "shadow root"
+    ]
+  },
+  "styling-web-components": {
+    "zh": [
+      "Web 组件样式",
+      "组件样式隔离"
+    ],
+    "en": [
+      "styling web components",
+      "shadow parts"
+    ]
+  },
+  "form-associated-custom-elements": {
+    "zh": [
+      "表单关联自定义元素",
+      "自定义表单控件"
+    ],
+    "en": [
+      "form associated custom element",
+      "form control"
+    ]
+  },
+  "accessible-web-components": {
+    "zh": [
+      "可访问 Web 组件",
+      "组件可访问性"
+    ],
+    "en": [
+      "accessible web components"
+    ]
+  },
+  "prerendering-custom-elements": {
+    "zh": [
+      "预渲染自定义元素",
+      "组件预渲染"
+    ],
+    "en": [
+      "prerender custom elements"
+    ]
+  },
+  "js": {
+    "zh": [
+      "JavaScript 规范",
+      "JS 最佳实践"
+    ],
+    "en": [
+      "javascript",
+      "js best practices"
+    ]
+  },
+  "calculate-event-differentials": {
+    "zh": [
+      "事件时间差",
+      "帧间差值"
+    ],
+    "en": [
+      "event differentials",
+      "frame delta"
+    ]
+  },
+  "support-global-calendar-systems": {
+    "zh": [
+      "多历法支持",
+      "非公历日期"
+    ],
+    "en": [
+      "calendar systems",
+      "intl calendar"
+    ]
+  },
+  "sort-high-precision-timestamps": {
+    "zh": [
+      "高精度时间戳排序",
+      "时间精度"
+    ],
+    "en": [
+      "high precision timestamp",
+      "sort timestamps"
+    ]
+  },
+  "security": {
+    "zh": [
+      "安全",
+      "Web 安全",
+      "安全最佳实践"
+    ],
+    "en": [
+      "security",
+      "web security"
+    ]
+  },
+  "sanitize-untrusted-html": {
+    "zh": [
+      "HTML 净化",
+      "XSS 防护",
+      "用户内容渲染",
+      "注入防护"
+    ],
+    "en": [
+      "sanitize html",
+      "xss",
+      "sanitizer api"
+    ]
+  },
+  "trusted-types": {
+    "zh": [
+      "可信类型",
+      "Trusted Types",
+      "DOM 注入防护"
+    ],
+    "en": [
+      "trusted types",
+      "dom xss"
+    ]
+  },
+  "secure-external-subresources": {
+    "zh": [
+      "外部资源安全",
+      "SRI 子资源完整性"
+    ],
+    "en": [
+      "subresource integrity",
+      "sri",
+      "external scripts"
+    ]
+  },
+  "validate-origins": {
+    "zh": [
+      "来源校验",
+      "Origin 校验",
+      "跨域校验"
+    ],
+    "en": [
+      "validate origin",
+      "origin check",
+      "cors"
+    ]
+  },
+  "restrict-outbound-connections": {
+    "zh": [
+      "限制外联",
+      "出站连接限制"
+    ],
+    "en": [
+      "restrict outbound",
+      "connection allowlist"
+    ]
+  },
+  "client-side-encryption": {
+    "zh": [
+      "客户端加密",
+      "端到端加密"
+    ],
+    "en": [
+      "client side encryption",
+      "webcrypto"
+    ]
+  },
+  "digital-signatures": {
+    "zh": [
+      "数字签名",
+      "数据签名"
+    ],
+    "en": [
+      "digital signature",
+      "signature"
+    ]
+  },
+  "passkeys": {
+    "zh": [
+      "通行密钥",
+      "passkey",
+      "无密码登录"
+    ],
+    "en": [
+      "passkey",
+      "passkeys",
+      "webauthn"
+    ]
+  },
+  "passkey-authentication": {
+    "zh": [
+      "Passkey 登录",
+      "无密码认证"
+    ],
+    "en": [
+      "passkey authentication",
+      "passkey sign in"
+    ]
+  },
+  "passkey-registration": {
+    "zh": [
+      "Passkey 注册",
+      "创建通行密钥"
+    ],
+    "en": [
+      "passkey registration"
+    ]
+  },
+  "passkey-management": {
+    "zh": [
+      "Passkey 管理",
+      "管理通行密钥"
+    ],
+    "en": [
+      "passkey management"
+    ]
+  },
+  "passkey-reauthentication": {
+    "zh": [
+      "Passkey 二次验证",
+      "重新认证"
+    ],
+    "en": [
+      "passkey reauthentication"
+    ]
+  },
+  "passkey-conditional-create": {
+    "zh": [
+      "Passkey 条件创建"
+    ],
+    "en": [
+      "conditional create"
+    ]
+  },
+  "quick-sign-ins": {
+    "zh": [
+      "快速登录",
+      "一键登录"
+    ],
+    "en": [
+      "quick sign in",
+      "fedcm"
+    ]
+  },
+  "verify-email-ownership": {
+    "zh": [
+      "邮箱验证",
+      "邮箱所有权"
+    ],
+    "en": [
+      "email verification",
+      "verify email"
+    ]
+  },
+  "local-network-access": {
+    "zh": [
+      "本地网络访问",
+      "局域网请求"
+    ],
+    "en": [
+      "local network access",
+      "lan"
+    ]
+  },
+  "prompt-api": {
+    "zh": [
+      "Prompt API",
+      "内置 AI 提示",
+      "浏览器内模型"
+    ],
+    "en": [
+      "prompt api",
+      "built in ai",
+      "gemini nano"
+    ]
+  },
+  "summarizer": {
+    "zh": [
+      "摘要 API",
+      "文本摘要"
+    ],
+    "en": [
+      "summarizer",
+      "summarize text"
+    ]
+  },
+  "translator": {
+    "zh": [
+      "翻译 API",
+      "浏览器翻译"
+    ],
+    "en": [
+      "translator",
+      "translation api"
+    ]
+  },
+  "language-detection": {
+    "zh": [
+      "语言检测",
+      "识别语言"
+    ],
+    "en": [
+      "language detection",
+      "detect language"
+    ]
+  },
+  "language-model": {
+    "zh": [
+      "本地语言模型",
+      "LanguageModel",
+      "客户端模型"
+    ],
+    "en": [
+      "language model",
+      "local model"
+    ]
+  },
+  "install-web-app": {
+    "zh": [
+      "安装应用",
+      "添加到主屏",
+      "PWA 安装",
+      "离线安装应用",
+      "安装到桌面"
+    ],
+    "en": [
+      "install web app",
+      "pwa install",
+      "add to home screen"
+    ]
+  },
+  "privacy": {
+    "zh": [
+      "隐私",
+      "用户隐私",
+      "隐私保护"
+    ],
+    "en": [
+      "privacy",
+      "user privacy"
+    ]
+  },
+  "cpp-on-the-web": {
+    "zh": [
+      "C++ 编译到 Web",
+      "Emscripten",
+      "WASM 编译"
+    ],
+    "en": [
+      "cpp wasm",
+      "emscripten",
+      "compile c++"
+    ]
+  },
+  "webmcp": {
+    "zh": [
+      "WebMCP",
+      "网页暴露给 AI",
+      "AI Agent 工具",
+      "网页功能暴露给AI",
+      "暴露给AI",
+      "网页工具化"
+    ],
+    "en": [
+      "webmcp",
+      "model context protocol"
+    ]
+  },
+  "agentic-forms": {
+    "zh": [
+      "表单暴露给 AI",
+      "声明式 AI 工具"
+    ],
+    "en": [
+      "agentic forms",
+      "declarative tools"
+    ]
+  },
+  "agentic-javascript-tools": {
+    "zh": [
+      "JS 函数暴露给 AI",
+      "命令式 AI 工具",
+      "网页功能暴露给AI",
+      "JS函数暴露"
+    ],
+    "en": [
+      "agentic javascript tools",
+      "imperative tools"
+    ]
+  },
+  "content-first-noise-reduction": {
+    "zh": [
+      "内容优先",
+      "减少干扰",
+      "去噪设计"
+    ],
+    "en": [
+      "content first",
+      "reduce noise"
+    ]
+  },
+  "form-factor-adaptation": {
+    "zh": [
+      "形态适配",
+      "触控适配",
+      "设备适配"
+    ],
+    "en": [
+      "form factor",
+      "touch targets",
+      "device adaptation"
+    ]
+  },
+  "natural-interactions": {
+    "zh": [
+      "自然交互",
+      "悬停反馈",
+      "按压反馈"
+    ],
+    "en": [
+      "natural interactions",
+      "hover feedback",
+      "press feedback"
+    ]
+  },
+  "chrome-extensions": {
+    "zh": [
+      "Chrome 扩展",
+      "浏览器插件",
+      "扩展开发"
+    ],
+    "en": [
+      "chrome extension",
+      "browser extension",
+      "manifest v3"
+    ]
+  },
+  "api-calling": {
+    "zh": [
+      "扩展 API 调用",
+      "chrome.* API"
+    ],
+    "en": [
+      "extension api",
+      "chrome api"
+    ]
+  },
+  "content-scripts": {
+    "zh": [
+      "内容脚本",
+      "注入页面脚本"
+    ],
+    "en": [
+      "content script",
+      "inject script"
+    ]
+  },
+  "service-worker": {
+    "zh": [
+      "扩展 Service Worker",
+      "后台脚本"
+    ],
+    "en": [
+      "service worker",
+      "background script"
+    ]
+  },
+  "message-passing": {
+    "zh": [
+      "消息通信",
+      "扩展消息传递"
+    ],
+    "en": [
+      "message passing",
+      "runtime messaging"
+    ]
+  },
+  "permissions": {
+    "zh": [
+      "扩展权限",
+      "权限申请"
+    ],
+    "en": [
+      "permissions",
+      "optional permissions"
+    ]
+  },
+  "side-panel": {
+    "zh": [
+      "侧边栏面板",
+      "side panel",
+      "扩展侧边栏",
+      "Chrome 扩展侧边栏"
+    ],
+    "en": [
+      "side panel",
+      "sidepanel",
+      "extension side panel"
+    ]
+  },
+  "popup-ui": {
+    "zh": [
+      "扩展弹窗",
+      "popup 页面"
+    ],
+    "en": [
+      "popup",
+      "extension popup"
+    ]
+  },
+  "context-menus": {
+    "zh": [
+      "右键菜单",
+      "上下文菜单"
+    ],
+    "en": [
+      "context menu",
+      "right click menu"
+    ]
+  },
+  "omnibox": {
+    "zh": [
+      "地址栏搜索",
+      "omnibox"
+    ],
+    "en": [
+      "omnibox",
+      "address bar"
+    ]
+  },
+  "storage": {
+    "zh": [
+      "扩展存储",
+      "chrome.storage"
+    ],
+    "en": [
+      "storage",
+      "chrome storage"
+    ]
+  },
+  "tab-management": {
+    "zh": [
+      "标签页管理",
+      "tabs API"
+    ],
+    "en": [
+      "tab management",
+      "tabs api"
+    ]
+  },
+  "devtools": {
+    "zh": [
+      "开发者工具扩展",
+      "devtools 面板"
+    ],
+    "en": [
+      "devtools",
+      "devtools panel"
+    ]
+  },
+  "declarative-net-request": {
+    "zh": [
+      "网络请求拦截",
+      "declarativeNetRequest",
+      "请求改写"
+    ],
+    "en": [
+      "declarative net request",
+      "dnr",
+      "block requests"
+    ]
+  },
+  "csp-sandbox": {
+    "zh": [
+      "扩展 CSP",
+      "沙箱 iframe",
+      "代码执行限制"
+    ],
+    "en": [
+      "csp",
+      "sandbox",
+      "content security policy"
+    ]
+  },
+  "user-scripts": {
+    "zh": [
+      "用户脚本",
+      "脚本管理器"
+    ],
+    "en": [
+      "user scripts",
+      "userscripts",
+      "tampermonkey"
+    ]
+  },
+  "media-capture": {
+    "zh": [
+      "媒体捕获",
+      "录屏截图"
+    ],
+    "en": [
+      "media capture",
+      "tab capture"
+    ]
+  },
+  "auth-identity": {
+    "zh": [
+      "扩展登录",
+      "身份认证"
+    ],
+    "en": [
+      "identity",
+      "oauth",
+      "extension auth"
+    ]
+  },
+  "chrome:prompt-api": {
+    "zh": [
+      "扩展内置 AI",
+      "扩展 Prompt API"
+    ],
+    "en": [
+      "extension prompt api"
+    ]
+  },
+  "chrome:icons": {
+    "zh": [
+      "扩展图标",
+      "图标尺寸要求"
+    ],
+    "en": [
+      "extension icons",
+      "icon sizes"
+    ]
+  },
+  "privacy-policy": {
+    "zh": [
+      "隐私政策",
+      "扩展隐私说明"
+    ],
+    "en": [
+      "privacy policy"
+    ]
+  },
+  "review-checklist": {
+    "zh": [
+      "商店审核",
+      "扩展上架检查",
+      "审核驳回"
+    ],
+    "en": [
+      "review checklist",
+      "store review"
+    ]
+  },
+  "store-listing": {
+    "zh": [
+      "商店列表",
+      "扩展上架文案"
+    ],
+    "en": [
+      "store listing",
+      "web store listing"
+    ]
+  },
+  "chromewebstore-template": {
+    "zh": [
+      "商店模板",
+      "上架模板"
+    ],
+    "en": [
+      "webstore template"
+    ]
+  }
+}

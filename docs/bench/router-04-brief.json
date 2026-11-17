@@ -1,0 +1,35 @@
+{
+  "label": "iter4-brief",
+  "generatedAt": "2026-11-16T17:52:35.449Z",
+  "cases": 48,
+  "runs": 1,
+  "limit": 3,
+  "latencyMs": {
+    "mean": 93.2,
+    "p50": 87.7,
+    "p95": 123.5,
+    "min": 67.2,
+    "max": 139.3
+  },
+  "nodeStartupMs": 50.7,
+  "buildCheckMs": 186.2,
+  "top1": 97.92,
+  "top3": 100,
+  "errors": 0,
+  "outputChars": {
+    "mean": 1757,
+    "p95": 2306
+  },
+  "indexBytes": 577826,
+  "indexMB": 0.55,
+  "flow": {
+    "cases": 5,
+    "searchRetrieveMeanMs": 163.8,
+    "briefMeanMs": 78.6,
+    "speedup": 2.08,
+    "searchRetrieveChars": 12194,
+    "briefChars": 11565,
+    "overheadCharsSavedPercent": 5.2
+  },
+  "misses": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@local/dsh-frontend-verify-preset",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH Agent preset bundle：前端开发 · 测试验证（先检索 modern-web-guidance 指南，再实现，最后用真实浏览器验收并附证据）。",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

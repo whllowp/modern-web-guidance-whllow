@@ -1,0 +1,83 @@
+﻿{
+  "tool": "bench-verify",
+  "label": "new-quick",
+  "url": "file:///C:/Users/13423/AppData/Local/Temp/fe-verify-perf/index.html",
+  "args": [
+    "--url",
+    "file:///C:/Users/13423/AppData/Local/Temp/fe-verify-perf/index.html",
+    "--no-fail",
+    "--checks",
+    "C:\\Users\\13423\\AppData\\Local\\Temp\\fe-verify-perf\\checks.json",
+    "--quick",
+    "--concurrency",
+    "4"
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "elapsedMs": 3375.0881,
+      "exitCode": 0,
+      "verdict": "PASS",
+      "mode": "quick",
+      "screenshots": 1,
+      "reportBytes": 9441,
+      "stdoutBytes": 668,
+      "stderrBytes": 487
+    },
+    {
+      "run": 2,
+      "elapsedMs": 2756.316,
+      "exitCode": 0,
+      "verdict": "PASS",
+      "mode": "quick",
+      "screenshots": 1,
+      "reportBytes": 9440,
+      "stdoutBytes": 668,
+      "stderrBytes": 487
+    },
+    {
+      "run": 3,
+      "elapsedMs": 2295.2628,
+      "exitCode": 0,
+      "verdict": "PASS",
+      "mode": "quick",
+      "screenshots": 1,
+      "reportBytes": 9439,
+      "stdoutBytes": 668,
+      "stderrBytes": 487
+    },
+    {
+      "run": 4,
+      "elapsedMs": 1765.327,
+      "exitCode": 0,
+      "verdict": "PASS",
+      "mode": "quick",
+      "screenshots": 1,
+      "reportBytes": 9438,
+      "stdoutBytes": 668,
+      "stderrBytes": 487
+    },
+    {
+      "run": 5,
+      "elapsedMs": 1548.9314,
+      "exitCode": 0,
+      "verdict": "PASS",
+      "mode": "quick",
+      "screenshots": 1,
+      "reportBytes": 9438,
+      "stdoutBytes": 668,
+      "stderrBytes": 487
+    }
+  ],
+  "wallMs": {
+    "mean": 2348.2,
+    "p50": 2295.3,
+    "p95": 3251.3,
+    "min": 1548.9,
+    "max": 3375.1,
+    "stddev": 663.7
+  },
+  "reportBytesMean": 9439,
+  "stdoutBytesMean": 668,
+  "screenshotsPerRun": 1
+}

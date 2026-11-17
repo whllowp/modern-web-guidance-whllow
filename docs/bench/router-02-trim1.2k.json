@@ -1,0 +1,39 @@
+{
+  "label": "iter2-trim1.2k",
+  "generatedAt": "2026-11-16T17:50:48.738Z",
+  "cases": 48,
+  "runs": 1,
+  "limit": 3,
+  "latencyMs": {
+    "mean": 60.6,
+    "p50": 57.9,
+    "p95": 74.6,
+    "min": 50.1,
+    "max": 127.8
+  },
+  "nodeStartupMs": 40.8,
+  "buildCheckMs": 138.2,
+  "top1": 87.5,
+  "top3": 97.92,
+  "errors": 0,
+  "outputChars": {
+    "mean": 1760,
+    "p95": 2306
+  },
+  "indexBytes": 577562,
+  "indexMB": 0.55,
+  "misses": [
+    {
+      "query": "密码管理器自动填充",
+      "got": [
+        "passkey-conditional-create",
+        "passkey-management",
+        "passkey-authentication"
+      ],
+      "expected": [
+        "autofill-sign-in-form",
+        "passkeys"
+      ]
+    }
+  ]
+}

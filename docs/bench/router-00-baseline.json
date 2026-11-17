@@ -1,0 +1,26 @@
+{
+  "label": "baseline-v1",
+  "generatedAt": "2026-11-16T17:50:09.339Z",
+  "cases": 48,
+  "runs": 1,
+  "limit": 3,
+  "latencyMs": {
+    "mean": 81.5,
+    "p50": 78.8,
+    "p95": 100.8,
+    "min": 66.5,
+    "max": 119.2
+  },
+  "nodeStartupMs": 37.7,
+  "buildCheckMs": 3568.1,
+  "top1": 87.5,
+  "top3": 100,
+  "errors": 0,
+  "outputChars": {
+    "mean": 1772,
+    "p95": 2183
+  },
+  "indexBytes": 1983389,
+  "indexMB": 1.89,
+  "misses": []
+}

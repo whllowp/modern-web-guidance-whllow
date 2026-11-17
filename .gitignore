@@ -1,3 +1,5 @@
 # Exclude node_modules from publishing as we move to npx -y style
 node_modules/
 
+# Verification harness output (screenshots, reports, baselines) is local evidence, not source
+.verify/

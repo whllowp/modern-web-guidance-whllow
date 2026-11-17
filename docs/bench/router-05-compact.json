@@ -1,0 +1,41 @@
+{
+  "label": "iter5-compact",
+  "generatedAt": "2026-11-16T17:53:13.494Z",
+  "cases": 48,
+  "runs": 1,
+  "limit": 3,
+  "latencyMs": {
+    "mean": 76.5,
+    "p50": 72.4,
+    "p95": 104.1,
+    "min": 60.9,
+    "max": 110.5
+  },
+  "nodeStartupMs": 41.5,
+  "buildCheckMs": 196.6,
+  "top1": 97.92,
+  "top3": 100,
+  "errors": 0,
+  "outputChars": {
+    "mean": 1757,
+    "p95": 2306
+  },
+  "indexBytes": 577826,
+  "indexMB": 0.55,
+  "flow": {
+    "cases": 5,
+    "searchRetrieveMeanMs": 151.1,
+    "briefMeanMs": 88.9,
+    "speedup": 1.7,
+    "searchRetrieveChars": 12194,
+    "briefChars": 11565,
+    "overheadCharsSavedPercent": 5.2,
+    "routingOverhead": {
+      "searchRetrieveChars": 733,
+      "briefChars": 103.4,
+      "reductionPercent": 85.9
+    },
+    "humanSearchOutputChars": 1116
+  },
+  "misses": []
+}

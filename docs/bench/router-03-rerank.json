@@ -1,0 +1,26 @@
+{
+  "label": "iter3-rerank",
+  "generatedAt": "2026-11-16T17:51:43.433Z",
+  "cases": 48,
+  "runs": 1,
+  "limit": 3,
+  "latencyMs": {
+    "mean": 208.9,
+    "p50": 212.2,
+    "p95": 354.7,
+    "min": 66.2,
+    "max": 372.2
+  },
+  "nodeStartupMs": 43.9,
+  "buildCheckMs": 180.3,
+  "top1": 97.92,
+  "top3": 100,
+  "errors": 0,
+  "outputChars": {
+    "mean": 1757,
+    "p95": 2306
+  },
+  "indexBytes": 577826,
+  "indexMB": 0.55,
+  "misses": []
+}

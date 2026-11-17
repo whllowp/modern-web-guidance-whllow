@@ -1,0 +1,916 @@
+{
+  "对话框": [
+    "dialog",
+    "modal"
+  ],
+  "弹窗": [
+    "dialog",
+    "popover",
+    "modal"
+  ],
+  "模态": [
+    "modal",
+    "dialog"
+  ],
+  "确认框": [
+    "dialog",
+    "confirm"
+  ],
+  "弹出层": [
+    "popover",
+    "overlay",
+    "top layer"
+  ],
+  "浮层": [
+    "popover",
+    "overlay",
+    "top layer"
+  ],
+  "轻关闭": [
+    "light dismiss"
+  ],
+  "点击外部关闭": [
+    "light dismiss",
+    "outside click"
+  ],
+  "遮罩": [
+    "backdrop",
+    "mask",
+    "overlay"
+  ],
+  "滚动条": [
+    "scrollbar"
+  ],
+  "自定义滚动条": [
+    "scrollbar-color",
+    "scrollbar-width"
+  ],
+  "滚动捕捉": [
+    "scroll snap",
+    "snap"
+  ],
+  "滚动吸附": [
+    "scroll snap"
+  ],
+  "滚动动画": [
+    "scroll",
+    "scroll-driven",
+    "scroll timeline"
+  ],
+  "滚动叙事": [
+    "scrollytelling"
+  ],
+  "滚动进度": [
+    "scroll progress"
+  ],
+  "滚动穿透": [
+    "overscroll-behavior",
+    "scroll lock"
+  ],
+  "视差": [
+    "parallax"
+  ],
+  "过渡": [
+    "transition"
+  ],
+  "视图过渡": [
+    "view transition"
+  ],
+  "页面过渡": [
+    "view transition",
+    "cross document"
+  ],
+  "动画": [
+    "animation",
+    "animate",
+    "motion"
+  ],
+  "动效": [
+    "motion",
+    "animation"
+  ],
+  "缓动": [
+    "easing",
+    "linear easing"
+  ],
+  "弹簧": [
+    "spring",
+    "physics easing"
+  ],
+  "暗色模式": [
+    "dark mode",
+    "dark theme",
+    "light-dark"
+  ],
+  "暗色": [
+    "dark mode",
+    "dark"
+  ],
+  "深色模式": [
+    "dark mode"
+  ],
+  "明暗主题": [
+    "color-scheme",
+    "light-dark",
+    "theme"
+  ],
+  "主题": [
+    "theme",
+    "color-scheme",
+    "design tokens"
+  ],
+  "设计令牌": [
+    "design tokens",
+    "custom properties"
+  ],
+  "配色": [
+    "color",
+    "palette"
+  ],
+  "颜色": [
+    "color"
+  ],
+  "对比度": [
+    "contrast",
+    "contrast-color"
+  ],
+  "高对比": [
+    "forced colors",
+    "contrast"
+  ],
+  "字体": [
+    "font",
+    "typography",
+    "font-size"
+  ],
+  "排版": [
+    "typography",
+    "text layout"
+  ],
+  "字号缩放": [
+    "text scale",
+    "font-size"
+  ],
+  "渐变": [
+    "gradient"
+  ],
+  "阴影": [
+    "box-shadow",
+    "shadow"
+  ],
+  "圆角": [
+    "border-radius",
+    "corner-shape"
+  ],
+  "纹理": [
+    "texture",
+    "grain"
+  ],
+  "图案": [
+    "patterns",
+    "gradient"
+  ],
+  "容器查询": [
+    "container quer",
+    "container"
+  ],
+  "锚点定位": [
+    "anchor position",
+    "anchoring"
+  ],
+  "定位": [
+    "position",
+    "anchor",
+    "positioning"
+  ],
+  "布局": [
+    "layout"
+  ],
+  "网格": [
+    "grid"
+  ],
+  "弹性布局": [
+    "flex",
+    "flexbox"
+  ],
+  "响应式": [
+    "responsive",
+    "breakpoint"
+  ],
+  "自适应": [
+    "adaptive",
+    "responsive",
+    "fluid"
+  ],
+  "流体": [
+    "fluid",
+    "clamp"
+  ],
+  "溢出": [
+    "overflow",
+    "clip"
+  ],
+  "裁剪": [
+    "clip",
+    "clip-path"
+  ],
+  "形状": [
+    "shape",
+    "clip-path"
+  ],
+  "遮罩渐隐": [
+    "mask",
+    "fade"
+  ],
+  "边缘渐隐": [
+    "fade",
+    "mask",
+    "soft edge"
+  ],
+  "表格": [
+    "table"
+  ],
+  "排序表格": [
+    "sortable table",
+    "sort"
+  ],
+  "标签页": [
+    "tabs"
+  ],
+  "选项卡": [
+    "tabs"
+  ],
+  "菜单": [
+    "menu"
+  ],
+  "下拉菜单": [
+    "dropdown",
+    "menu",
+    "select"
+  ],
+  "下拉": [
+    "dropdown",
+    "select"
+  ],
+  "提示框": [
+    "tooltip",
+    "hint"
+  ],
+  "气泡提示": [
+    "tooltip",
+    "popover"
+  ],
+  "通知": [
+    "toast",
+    "notification"
+  ],
+  "轻提示": [
+    "toast",
+    "snackbar"
+  ],
+  "加载": [
+    "loading",
+    "spinner",
+    "progress"
+  ],
+  "加载中": [
+    "spinner",
+    "loading",
+    "progress"
+  ],
+  "进度": [
+    "progress"
+  ],
+  "卡片": [
+    "card"
+  ],
+  "轮播": [
+    "carousel",
+    "slideshow"
+  ],
+  "走马灯": [
+    "carousel"
+  ],
+  "抽屉": [
+    "drawer",
+    "navigation drawer"
+  ],
+  "侧边栏": [
+    "side panel",
+    "sidebar",
+    "drawer"
+  ],
+  "导航": [
+    "navigation",
+    "navbar",
+    "nav"
+  ],
+  "面包屑": [
+    "breadcrumbs"
+  ],
+  "手风琴": [
+    "accordion",
+    "details"
+  ],
+  "折叠面板": [
+    "accordion",
+    "details",
+    "expand"
+  ],
+  "开关": [
+    "switch",
+    "toggle"
+  ],
+  "滑块": [
+    "slider",
+    "range"
+  ],
+  "复选框": [
+    "checkbox"
+  ],
+  "单选": [
+    "radio",
+    "select"
+  ],
+  "选择器": [
+    "select",
+    "picker"
+  ],
+  "表单": [
+    "form"
+  ],
+  "校验": [
+    "validat",
+    "invalid",
+    "user-invalid"
+  ],
+  "验证": [
+    "validat",
+    "verif"
+  ],
+  "必填": [
+    "required"
+  ],
+  "自动填充": [
+    "autofill"
+  ],
+  "密码": [
+    "password",
+    "credential"
+  ],
+  "通行密钥": [
+    "passkey",
+    "webauthn"
+  ],
+  "登录": [
+    "sign in",
+    "sign-in",
+    "login"
+  ],
+  "注册": [
+    "sign up",
+    "sign-up"
+  ],
+  "支付": [
+    "payment",
+    "checkout"
+  ],
+  "地址": [
+    "address",
+    "shipping"
+  ],
+  "验证码": [
+    "otp",
+    "verification code"
+  ],
+  "上传": [
+    "upload",
+    "file picker"
+  ],
+  "拖拽": [
+    "drag"
+  ],
+  "拖放": [
+    "drag and drop",
+    "dnd"
+  ],
+  "滑动": [
+    "swipe",
+    "scroll"
+  ],
+  "手势": [
+    "gesture",
+    "pointer",
+    "touch"
+  ],
+  "键盘": [
+    "keyboard",
+    "focus",
+    "tab"
+  ],
+  "焦点": [
+    "focus",
+    "focus-visible"
+  ],
+  "屏幕阅读器": [
+    "screen reader",
+    "aria",
+    "accessib"
+  ],
+  "无障碍": [
+    "accessib",
+    "a11y"
+  ],
+  "可访问性": [
+    "accessib",
+    "a11y"
+  ],
+  "错误提示": [
+    "error",
+    "invalid",
+    "aria-invalid"
+  ],
+  "懒加载": [
+    "lazy",
+    "loading=lazy"
+  ],
+  "预加载": [
+    "preload",
+    "prefetch"
+  ],
+  "优先级": [
+    "priority",
+    "fetchpriority"
+  ],
+  "图片": [
+    "image",
+    "img"
+  ],
+  "视频": [
+    "video"
+  ],
+  "音频": [
+    "audio"
+  ],
+  "性能": [
+    "performance",
+    "vitals"
+  ],
+  "首屏": [
+    "lcp",
+    "initial",
+    "above the fold"
+  ],
+  "布局偏移": [
+    "cls",
+    "layout shift"
+  ],
+  "长任务": [
+    "long task",
+    "yield",
+    "scheduler"
+  ],
+  "交互延迟": [
+    "inp",
+    "interaction"
+  ],
+  "埋点": [
+    "analytics",
+    "telemetry"
+  ],
+  "流式": [
+    "stream",
+    "streaming"
+  ],
+  "Web 组件": [
+    "web component",
+    "custom element",
+    "shadow"
+  ],
+  "组件": [
+    "component",
+    "custom element",
+    "web component"
+  ],
+  "自定义元素": [
+    "custom element"
+  ],
+  "样式隔离": [
+    "shadow dom",
+    "scope",
+    "isolation"
+  ],
+  "安全": [
+    "security"
+  ],
+  "加密": [
+    "encrypt",
+    "crypto"
+  ],
+  "签名": [
+    "signature"
+  ],
+  "净化": [
+    "sanitiz"
+  ],
+  "注入": [
+    "xss",
+    "inject",
+    "sanitiz"
+  ],
+  "可信类型": [
+    "trusted types"
+  ],
+  "来源": [
+    "origin"
+  ],
+  "跨域": [
+    "cors",
+    "origin",
+    "cross origin"
+  ],
+  "网络": [
+    "network",
+    "fetch"
+  ],
+  "日期": [
+    "date",
+    "temporal"
+  ],
+  "时区": [
+    "timezone",
+    "temporal"
+  ],
+  "时间": [
+    "time",
+    "timestamp"
+  ],
+  "历法": [
+    "calendar",
+    "intl"
+  ],
+  "国际化": [
+    "intl",
+    "i18n",
+    "locale"
+  ],
+  "隐私": [
+    "privacy"
+  ],
+  "AI": [
+    "ai",
+    "language model",
+    "prompt api"
+  ],
+  "翻译": [
+    "translat"
+  ],
+  "摘要": [
+    "summar"
+  ],
+  "语言检测": [
+    "language detect"
+  ],
+  "安装应用": [
+    "install",
+    "pwa"
+  ],
+  "离线": [
+    "offline",
+    "service worker"
+  ],
+  "画布": [
+    "canvas"
+  ],
+  "3D": [
+    "3d",
+    "webgl"
+  ],
+  "着色器": [
+    "shader",
+    "webgl"
+  ],
+  "图标": [
+    "icon"
+  ],
+  "扩展": [
+    "extension",
+    "chrome"
+  ],
+  "插件": [
+    "extension",
+    "plugin"
+  ],
+  "浏览器": [
+    "browser"
+  ],
+  "清单文件": [
+    "manifest"
+  ],
+  "内容脚本": [
+    "content script"
+  ],
+  "后台脚本": [
+    "service worker",
+    "background"
+  ],
+  "右键菜单": [
+    "context menu"
+  ],
+  "地址栏": [
+    "omnibox"
+  ],
+  "权限": [
+    "permissions"
+  ],
+  "存储": [
+    "storage"
+  ],
+  "标签页管理": [
+    "tabs",
+    "tab management"
+  ],
+  "商店上架": [
+    "store listing",
+    "webstore",
+    "review"
+  ],
+  "审核": [
+    "review",
+    "checklist"
+  ],
+  "页面切换": [
+    "view transition",
+    "page transition"
+  ],
+  "转场": [
+    "view transition",
+    "transition"
+  ],
+  "切页": [
+    "view transition"
+  ],
+  "路由切换": [
+    "view transition",
+    "navigation"
+  ],
+  "页面动画": [
+    "view transition",
+    "animation"
+  ],
+  "消息通信": [
+    "message passing",
+    "messaging",
+    "runtime"
+  ],
+  "消息传递": [
+    "message passing",
+    "messaging"
+  ],
+  "滚动条样式": [
+    "scrollbar-color",
+    "scrollbar-width",
+    "custom scrollbar"
+  ],
+  "键盘导航": [
+    "keyboard",
+    "focus",
+    "spatial navigation"
+  ],
+  "焦点管理": [
+    "focus",
+    "focus management",
+    "focus-visible"
+  ],
+  "表单校验": [
+    "validat",
+    "form validation"
+  ],
+  "校验时机": [
+    "validat",
+    "user-invalid"
+  ],
+  "错误播报": [
+    "error announcement",
+    "aria-invalid"
+  ],
+  "图片懒加载": [
+    "lazy",
+    "loading",
+    "image"
+  ],
+  "懒加载图片": [
+    "lazy",
+    "loading",
+    "image",
+    "fetchpriority"
+  ],
+  "性能指标": [
+    "cls",
+    "lcp",
+    "inp",
+    "vitals"
+  ],
+  "动画性能": [
+    "compositor",
+    "animation",
+    "performance"
+  ],
+  "骨架屏": [
+    "skeleton",
+    "placeholder",
+    "loading"
+  ],
+  "焦点陷阱": [
+    "focus trap",
+    "inert"
+  ],
+  "触摸目标": [
+    "touch target",
+    "form factor"
+  ],
+  "安全区域": [
+    "safe area inset"
+  ],
+  "全屏": [
+    "fullscreen",
+    "viewport"
+  ],
+  "拖拽排序": [
+    "rearrange",
+    "sortable",
+    "drag and drop"
+  ],
+  "重排": [
+    "reorder",
+    "rearrange",
+    "sort"
+  ],
+  "排序": [
+    "sort",
+    "sortable",
+    "reorder"
+  ],
+  "父元素": [
+    "parent",
+    "has",
+    "parent selector"
+  ],
+  "子元素": [
+    "child",
+    "sibling"
+  ],
+  "样式": [
+    "style",
+    "css"
+  ],
+  "吸顶": [
+    "sticky"
+  ],
+  "粘性": [
+    "sticky"
+  ],
+  "头部": [
+    "header"
+  ],
+  "提交": [
+    "submit",
+    "form"
+  ],
+  "报错": [
+    "error",
+    "invalid",
+    "validation"
+  ],
+  "打开动画": [
+    "animate",
+    "entry",
+    "top layer"
+  ],
+  "弹窗动画": [
+    "dialog animation",
+    "top layer",
+    "animate"
+  ],
+  "出现动画": [
+    "entry",
+    "reveal",
+    "appear",
+    "scroll"
+  ],
+  "滚动出现": [
+    "scroll entry",
+    "reveal",
+    "scroll"
+  ],
+  "横向滚动": [
+    "overflow",
+    "scroll",
+    "responsive"
+  ],
+  "抬起": [
+    "lift",
+    "hover",
+    "elevation",
+    "shadow"
+  ],
+  "悬浮效果": [
+    "hover",
+    "hovercard"
+  ],
+  "自动宽度": [
+    "field-sizing",
+    "auto width",
+    "fit content"
+  ],
+  "减少动态效果": [
+    "prefers-reduced-motion",
+    "reduced motion"
+  ],
+  "高对比度": [
+    "forced colors",
+    "contrast"
+  ],
+  "密码管理器": [
+    "autofill",
+    "password manager"
+  ],
+  "本地模型": [
+    "language model",
+    "local",
+    "built in ai"
+  ],
+  "播放": [
+    "play",
+    "video",
+    "audio"
+  ],
+  "自动播放": [
+    "autoplay",
+    "video",
+    "audio"
+  ],
+  "全屏播放": [
+    "fullscreen",
+    "video"
+  ],
+  "滚动锁定": [
+    "scroll lock",
+    "overscroll-behavior"
+  ],
+  "卡片布局": [
+    "card",
+    "layout",
+    "grid"
+  ],
+  "滚动": [
+    "scroll"
+  ],
+  "背景": [
+    "background",
+    "backdrop"
+  ],
+  "防止": [
+    "prevent",
+    "lock"
+  ],
+  "锁定": [
+    "lock",
+    "prevent"
+  ],
+  "大模型": [
+    "language model",
+    "llm",
+    "local model",
+    "built in ai"
+  ],
+  "本地跑": [
+    "local",
+    "run",
+    "offline"
+  ],
+  "暴露给": [
+    "webmcp",
+    "tool",
+    "agent",
+    "expose"
+  ],
+  "网页功能": [
+    "webmcp",
+    "agent tools",
+    "client side"
+  ],
+  "焦点可见": [
+    "focus-visible",
+    "focus"
+  ],
+  "可见": [
+    "visible",
+    "show"
+  ],
+  "骨架": [
+    "skeleton",
+    "placeholder",
+    "loading"
+  ]
+}
