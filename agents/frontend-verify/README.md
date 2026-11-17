@@ -101,28 +101,21 @@ plugin-market 等与前端开发验证无关的插件。
 激活失败时该行会以带诊断信息的形式留在 roster 上：修正 patch（JSON 语法、插件名拼写、
 `!!js` 被引号包裹等）后重新 `install_bundle`。
 
-### 3.3 本机安装状态（2026-11-16，真实执行记录）
+### 3.3 本机安装状态（2026-11-18，真实执行记录）
 
-本 bundle 已用 `plugin_manager` `install_bundle` 在本机 profile（`desktop`）真实尝试安装一次，
-**安装失败，未改变 profile**，诊断原文：
+**已安装成功并生效**：`plugin_manager` `install_bundle`（target 见 3.1）返回
+`application: applied`、`bundle: @local/dsh-frontend-verify-preset@0.1.0`、`warnings: []`；
+`list_bundles` 中该条目 `enabled: true`、`installed: true`，行 `preset-frontend-verify`
+（`@deepseek-ai/dsh-agent-preset`）已进入 profile。安装使用 pnpm v11.28.5（`Already up to date`），
+未触发任何构建脚本。后按 §3.2 在新建会话验证：预设在「前端开发 · 测试验证」位置可选。
 
-```text
-[ERR_PNPM_UNEXPECTED_STORE] Unexpected store location
-The dependencies at "C:\Users\<user>\.dsh\profiles\desktop\node_modules" are currently linked
-from the store at "C:\Users\<user>\AppData\Local\pnpm\store\v10".
-pnpm now wants to use the store at "...\pnpm\store\v11" to link dependencies.
-```
+> 历史记录：2026-11-16 首次尝试曾失败于 `[ERR_PNPM_UNEXPECTED_STORE]` —— profile 的
+> `node_modules` 由 pnpm store v10 链接、当前 pnpm 要 v11。该 profile 依赖后来已按 pnpm v11
+> 重装，2026-11-18 重试即成功。若在其他机器复现同样报错：先重装 profile 依赖，再重跑
+> `install_bundle`（涉及 profile 重装，先备份/提交 profile 配置），不要手写 profile 配置绕过安装器。
 
-这是 **profile 依赖环境的 pnpm store 版本不一致**（profile 用 pnpm v10 store 安装，当前 DSH 内置
-pnpm 要求 v11），与 bundle 本身无关；`plugin_manager` 的 `nextStep` 要求先修复该原因再重试。
-处理顺序（由用户决定，涉及 profile 重装，不要在未确认时自动执行）：
-
-1. 在 profile 目录按当前 pnpm 版本重装依赖（会重写 `profiles/desktop/node_modules`，建议先备份/提交 profile 配置）；
-2. 重新 `plugin_manager` `install_bundle`（target 见 3.1）；
-3. 按 3.2 核对 `preset-frontend-verify` 行与新建会话的预设列表。
-
-在此之前，本仓库的 **两个技能已可直接使用**（项目级 `.agents/skills/` 已被 DSH 自动发现，无需安装）：
-`modern-web-guidance-router` 与 `frontend-verification`。
+本仓库的 **两个技能无需安装**：项目级 `.agents/skills/` 已被 DSH 自动发现（`modern-web-guidance-router`
+与 `frontend-verification`），在任意会话中均可直接加载。
 
 ### 3.4 等价方式（GUI / CLI 回退）
 
@@ -137,7 +130,7 @@ pnpm 要求 v11），与 bundle 本身无关；`plugin_manager` 的 `nextStep` �
   `C:\Users\<你>\.dsh\profiles\desktop\package.json` 的 `dsh.profile.bundles` 数组末尾，再启动 DSH。
   （`plugin_manager` 会自动完成这两步，优先用它。）
 
-### 3.4 卸载 / 回滚
+### 3.5 卸载 / 回滚
 
 ```jsonc
 // plugin_manager({ action: "remove_bundle", target: "@local/dsh-frontend-verify-preset" })

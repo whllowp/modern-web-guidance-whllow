@@ -124,7 +124,7 @@ README 记录的闭环：专家指南 + 真实 base app（`daily-grind`、`devto
 1. **[Knowledge Map](KNOWLEDGE-MAP.md)** — 分层知识地图：分类索引、纪律指南、常见任务→检索配方、弱结果处理、验收清单。
 2. **[modern-web-guidance-router skill](../.agents/skills/modern-web-guidance-router/SKILL.md)** — 强制工作流 + 零网络检索 CLI（`scripts/mwg.mjs`）+ 自动生成索引（`references/index.json`，209 指南 + 24 扩展资产 + 250 特性）+ 中英路由词表（`references/intent-routes.md`、`aliases.json`、`zh-glossary.json`）。
 3. **[frontend-verification skill](../.agents/skills/frontend-verification/SKILL.md)** — Playwright 真机验收：多视口/明暗主题截图、控制台/网络错误、基础 a11y、性能指标、键盘焦点、像素对比、断言 DSL，输出 `report.json` + `report.md` 证据。
-4. **`agents/frontend-verify/` bundle** — DSH Agent preset「前端开发 · 测试验证」：强制「先检索指南 → 实现 → 真实浏览器验收 → 证据化汇报」的 persona 与工具组合。
+4. **`agents/frontend-verify/` bundle** — DSH Agent preset「前端开发 · 测试验证」：强制「先检索指南 → 实现 → 真实浏览器验收 → 证据化汇报」的 persona 与工具组合。已通过 `plugin_manager` `install_bundle` 安装到本机 `desktop` profile（`@local/dsh-frontend-verify-preset`，新建会话可选）。
 5. **[EFFICIENCY-REPORT.md](EFFICIENCY-REPORT.md)** — 10 轮效率迭代的实测报告：主任务流 −52.0%、完整验收 −52.2%、`--quick` 内循环 −65%…−80%、路由开销 −85.9%，含每轮改动、复现命令与诚实边界（索引瘦身到正文 1200 字符、quick 覆盖范围、机器波动）。
 
 ## 9. 关键事实速查

@@ -48,5 +48,5 @@ node .agents/skills/modern-web-guidance-router/scripts/mwg.mjs retrieve "<id>[,<
 ## DSH 专属
 
 - 技能目录：`.agents/skills/<name>/SKILL.md`（项目级，自动被发现）；本仓库现有 `modern-web-guidance-router`、`frontend-verification`。
-- 专属 Agent preset：`agents/frontend-verify/`（「前端开发 · 测试验证」），通过 `plugin_manager` 的 `install_bundle` 安装后在新建会话中选择。
+- 专属 Agent preset：`agents/frontend-verify/`（「前端开发 · 测试验证」），已安装为 profile bundle `@local/dsh-frontend-verify-preset`；新建会话时在预设选择器中选择（安装/迁移见 `agents/frontend-verify/README.md` §3）。
 - 技能中 `SKILL.md` 的 frontmatter 必须有 `name`（kebab-case）与 `description`；`references/`、`scripts/` 子目录不会被当成技能。

@@ -1,4 +1,4 @@
-﻿# 效率提升报告（10 轮迭代）
+# 效率提升报告（10 轮迭代）
 
 > 目标（用户原话）：在完成「项目总结 + SKILL + 前端开发测试验证 Agent」之后，**流程和效果提升，效率提升 50%，迭代 10 次**。
 > 本报告只记录**可复现的实测数据**：所有数字来自真实子进程跑分，JSON 原始数据在 [`bench/`](bench/) 与本文命令中；没有实测的项明确标注「未测」。
@@ -109,7 +109,7 @@ node .agents/skills/frontend-verification/scripts/verify.mjs run --url <defect.h
 3. **quick 覆盖有限**：1 视口/1 主题、无基线对比、无完整焦点走查；缺陷夹具只抓 9/13 条阻断项。只用于迭代内循环，交付前必须完整 `run`。
 4. **索引正文只留 1200 字符**：对「需要整篇细节」的深检索，`retrieve` 仍读源文件（全文）；索引瘦身只影响候选排序，不影响最终全文。做深读时不要只看 brief 内容。
 5. **样本量**：路由 48 用例 × 1 轮（迭代期间多轮）；验收 5 runs/版本，另多批采样验证波动。未做统计显著性检验，结论是工程口径而非学术口径。
-6. **Preset 安装仍未完成**：`install_bundle` 被 profile 的 pnpm store 版本不一致（v10 vs v11，`ERR_PNPM_UNEXPECTED_STORE`）阻塞；bundle 文件已就绪并通过 YAML 校验，修复 profile 依赖后一条命令即可安装（见 `agents/frontend-verify/README.md` §3.3）。这不影响两个技能（已在本仓库自动发现并可用）。
+6. **Preset 安装已完成**：2026-11-18 用 `plugin_manager` `install_bundle` 安装成功（`application: applied`，`list_bundles` 可见 `@local/dsh-frontend-verify-preset` 且 `enabled`/`installed` 为真，行 `preset-frontend-verify` 已生效），新建会话即可选择「前端开发 · 测试验证」。此前（2026-11-16）曾因 profile 的 pnpm store v10/v11 不一致失败，重装 profile 依赖后重试即成功；过程与排障见 `agents/frontend-verify/README.md` §3.3。
 
 ## 6. 结论
 
