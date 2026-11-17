@@ -9,7 +9,8 @@
 
 它不是安装动作，而是可安装的 **bundle 声明**：`package.json` 声明 bundle 与 patch 文件，
 `cordis.patch.yml` 向 profile 的 Loader 树插入一条 `@deepseek-ai/dsh-agent-preset` 声明。
-**本仓库交付时未执行安装**；安装由主 Agent 用 `plugin_manager` 的 `install_bundle` 完成。
+**本机 `desktop` profile 已于 2026-11-18 用 `plugin_manager` 的 `install_bundle` 安装成功**
+（`@local/dsh-frontend-verify-preset`，新建会话可选择；记录与核对见 §3.3 / §3.2）。
 
 ---
 
@@ -244,10 +245,10 @@ harness 本身零 npm 依赖，但**需要本机已装 Playwright 及其浏览�
    `tool-todo.*`、`tool-web.*`、`tool-subagent-control.*`、两个 `tool-subagent` 的
    provider/toolName、`workflow-ptc.provider`、`tool-result-pruner.*` 全部与 standard 一致。
 
-结果：**193 项断言全部通过（0 失败）**。本交付目录只有 3 个文件，未改动仓库其它文件，
-未调用 `plugin_manager` 安装。
+结果：**193 项断言全部通过（0 失败）**。静态自检阶段本目录只有 3 个文件、未调用 `plugin_manager`；
+后续集成阶段已用 `install_bundle` 真实安装（见 §3.3）。
 
-浏览器侧冒烟（安装后由主 Agent/用户执行，本 bundle 交付时未安装）：
+浏览器侧冒烟（在任意会话执行；两个技能无需安装即可用，bundle 已安装）：
 
 ```sh
 node .agents/skills/frontend-verification/scripts/verify.mjs --help   # 0.2 秒级工具自检
@@ -258,8 +259,9 @@ node .agents/skills/modern-web-guidance-router/scripts/mwg.mjs stats  # 索引/�
 
 ## 7. 已知限制与风险
 
-1. **尚未真机安装**：本 bundle 只做静态自检；实际激活状态以安装后 `plugin_manager`
-   `list_plugins` 的 `enabled`/`fiberPhase` 为准。安装/激活由主 Agent 完成。
+1. **真机状态**：本 bundle 已在本机 `desktop` profile 安装成功（2026-11-18，`application: applied`，
+   `list_plugins` 中 `preset-frontend-verify` 为 `enabled: true` / `fiberPhase: active`，见 §3.3）。
+   其他机器以各自安装后 `list_plugins` 的 `enabled`/`fiberPhase` 为准；安装/激活由主 Agent 完成。
 2. **只影响新会话**：预设修订在会话创建时固定，已存在会话保持原插件修订；必须新建会话验证。
 3. **技能可发现性依赖 workspace**：两个技能在 `<项目根>/.agents/skills/`，只有项目根（最近
    `.git` 祖先）是本仓库的会话才直接可见；跨项目使用要复制/软链到目标项目，或安装到
