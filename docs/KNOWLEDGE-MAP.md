@@ -146,10 +146,10 @@ $V = ".agents\skills\frontend-verification\scripts\verify.mjs"
 $url = ([System.Uri]("$env:TEMP\my-page\index.html")).AbsoluteUri   # 或 http://localhost:5173/
 node $V run --url $url --checks .\checks.json --quick                    # 迭代期快跑（1 视口 1 图，约快 75%）
 node $V run --url $url --checks .\checks.json --out .\.verify\run-1      # 交付前全量（多视口×明暗 + 控制台/a11y/溢出/性能/焦点 + 断言）
-node $V shot --url $url --out .\shot-dark.png --viewport 1440x900 --theme dark
-node $V a11y --url $url --out .\.a11y
+node $V shot --url $url --out .\.verify\shot-dark.png --viewport 1440x900 --theme dark
+node $V a11y --url $url --out .\.verify\a11y
 node $V perf --url $url
-node $V compare --a .\before.png --b .\after.png --out .\diff.png
+node $V compare --a .\.verify\before.png --b .\.verify\after.png --out .\.verify\diff.png
 ```
 
 > `--quick` 的 `report.mode='quick'` 与 `skipped` 列表会标明覆盖边界：**quick PASS 不等于完整验收**，交付前必须再跑 full。

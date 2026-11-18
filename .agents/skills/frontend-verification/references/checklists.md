@@ -28,7 +28,7 @@ $V = "E:\front-google\modern-web-guidance-whllow\.agents\skills\frontend-verific
 4. **滚动锁定**：打开时 `document.documentElement.style.overflow` 或 body 是否 `hidden`；关闭后恢复。
 5. **可访问名称**：`<dialog aria-labelledby="title-id">` 或 `aria-label`；不能用 dialog 内文本自动当名称。
 6. **关闭方式全覆盖**：Escape、关闭按钮、确认/取消按钮、点遮罩（若支持），4 条路径都点一遍。
-7. **视觉证据**：`run` 截图或 `shot --url $url --out dialog.png`，确认遮罩层级、不裁切、移动端 360 宽度不溢出。
+7. **视觉证据**：`run` 截图或 `shot --url $url --out .\.verify\dialog.png`，确认遮罩层级、不裁切、移动端 360 宽度不溢出。
 
 常见缺陷：无 aria-labelledby、关闭按钮只有 `×` 且无 aria-label、Escape 不关闭、打开后焦点仍在背景、关闭后焦点丢失、移动端 dialog 超出视口。
 

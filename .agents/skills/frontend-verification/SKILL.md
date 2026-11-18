@@ -84,7 +84,7 @@ $B = "E:\front-google\modern-web-guidance-whllow\.agents\skills\frontend-verific
 $url = ([System.Uri]("$env:TEMP\my-page\index.html")).AbsoluteUri   # 或 http://localhost:5173/
 
 # 1) 完整验证（最常用）
-node $V run --url $url --checks .\checks.json --out .\.verify-run
+node $V run --url $url --checks .\checks.json --out .\.verify\run
 
 # 1b) 快速冒烟（PR 前用；只跑 360x800/light，跳过性能/焦点/dialog/基线，PASS ≠ 完整验收）
 node $V run --url $url --checks .\checks.json --quick
@@ -94,20 +94,20 @@ node $B --url $url --runs 3 --checks .\checks.json --label after
 node $B --url $url --runs 3 --checks .\checks.json --verify C:\path\to\verify-old.mjs --label before
 
 # 2) 只出一张图（单视口/主题）
-node $V shot --url $url --out .\shot-dark.png --viewport 1440x900 --theme dark [--full-page]
+node $V shot --url $url --out .\.verify\shot-dark.png --viewport 1440x900 --theme dark [--full-page]
 
 # 3) 只查可访问性
-node $V a11y --url $url --out .\.a11y-out
+node $V a11y --url $url --out .\.verify\a11y-out
 
 # 4) 只看性能（stdout 只输出 JSON）
 node $V perf --url $url
 
 # 5) 两张图对比（输出 diff 图；差异 > 阈值时退出码 1）
-node $V compare --a .\before.png --b .\after.png --out .\diff.png
+node $V compare --a .\.verify\before.png --b .\.verify\after.png --out .\.verify\diff.png
 
 # 6) 基线视觉回归：第一次把截图目录留作基线，改完后对比
-node $V run --url $url --out .\.verify-before --no-fail
-node $V run --url $url --out .\.verify-after --baseline .\.verify-before\screenshots
+node $V run --url $url --out .\.verify\before --no-fail
+node $V run --url $url --out .\.verify\after --baseline .\.verify\before\screenshots
 
 # 备用浏览器（默认可跳过）
 node $V run --url $url --browser chrome

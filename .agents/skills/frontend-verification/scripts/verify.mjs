@@ -25,7 +25,7 @@ import { createRequire } from 'node:module';
 import { execFileSync } from 'node:child_process';
 
 const TOOL_NAME = 'frontend-verification';
-const TOOL_VERSION = '1.0.0';
+const TOOL_VERSION = '1.1.0';
 const SCRIPT_PATH = fileURLToPath(import.meta.url);
 const SCRIPT_DIR = path.dirname(SCRIPT_PATH);
 
@@ -2768,14 +2768,14 @@ compare 选项：
 退出码：0 = 通过；1 = 验证失败（有阻断项）；2 = 工具/参数错误。
 
 示例：
-  node scripts/verify.mjs run --url "file:///C:/work/page/index.html" --checks checks.json --out .\\verify-out
+  node scripts/verify.mjs run --url "file:///C:/work/page/index.html" --checks checks.json --out .\\verify\\out
   node scripts/verify.mjs run --url "http://localhost:5173/" --quick --checks checks.json
-  node scripts/verify.mjs run --url "http://localhost:5173/" --baseline .\\baseline --no-fail
+  node scripts/verify.mjs run --url "http://localhost:5173/" --baseline .\\verify\\baseline --no-fail
   node scripts/bench-verify.mjs --url "http://localhost:5173/" --runs 3 --label after
-  node scripts/verify.mjs shot --url "http://localhost:5173/" --out dark.png --theme dark --viewport 1440x900
+  node scripts/verify.mjs shot --url "http://localhost:5173/" --out .\\verify\\dark.png --theme dark --viewport 1440x900
   node scripts/verify.mjs a11y --url "http://localhost:5173/"
   node scripts/verify.mjs perf --url "http://localhost:5173/"
-  node scripts/verify.mjs compare --a before.png --b after.png --out diff.png
+  node scripts/verify.mjs compare --a .\\verify\\before.png --b .\\verify\\after.png --out .\\verify\\diff.png
 `;
   process.stdout.write(text);
 }

@@ -203,12 +203,12 @@ node .agents/skills/modern-web-guidance-router/scripts/mwg.mjs retrieve "<id>[,<
 node .agents/skills/frontend-verification/scripts/verify.mjs run --url "http://127.0.0.1:5173/" --checks checks.json --quick
 # 交付前全量验收（多视口 × 明暗截图 + console/pageerror + a11y + 横向溢出 + 性能 + 键盘焦点 + 断言 + 基线）
 node .agents/skills/frontend-verification/scripts/verify.mjs run `
-  --url "http://127.0.0.1:5173/" --checks checks.json --out .\verify-out --concurrency 4
+  --url "http://127.0.0.1:5173/" --checks checks.json --out .\.verify\out --concurrency 4
 # 只截一张图 / 只查 a11y / 只看性能 / 比较两张基线图
-node .agents/skills/frontend-verification/scripts/verify.mjs shot --url "http://127.0.0.1:5173/" --out dark.png --theme dark
+node .agents/skills/frontend-verification/scripts/verify.mjs shot --url "http://127.0.0.1:5173/" --out .\.verify\dark.png --theme dark
 node .agents/skills/frontend-verification/scripts/verify.mjs a11y --url "http://127.0.0.1:5173/"
 node .agents/skills/frontend-verification/scripts/verify.mjs perf --url "http://127.0.0.1:5173/"
-node .agents/skills/frontend-verification/scripts/verify.mjs compare --a before.png --b after.png --out diff.png
+node .agents/skills/frontend-verification/scripts/verify.mjs compare --a .\.verify\before.png --b .\.verify\after.png --out .\.verify\diff.png
 ```
 
 `--quick` 的 `report.mode='quick'`、`quick-mode` 警告与 `skipped` 列表会标明覆盖边界：**quick PASS 不等于完整验收**，交付前必须再跑一次 full。`--concurrency` 默认 `min(4, 采集数)`，低核机器用 2，依赖跨页共享状态时用 1。

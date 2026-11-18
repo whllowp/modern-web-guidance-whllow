@@ -2,6 +2,8 @@
 
 > 本文件是 `frontend-verification` skill 的自测产物节选，所有数据来自本机真实执行，不是手工编造。
 > 脱敏处理：用户目录替换为 `%TEMP%`、仓库路径替换为 `<repo>`；截图与报告文件名保持原样，方便对照字段结构。
+>
+> **字段版本说明**：本节选重点展示 `verdict` / `summary` / `perf` / `focus` / `dialog` / `checks` 等核心字段；当前 v1.1 报告在这些字段之外，还在 `report.json` 顶层新增 `mode`（`full`/`quick`）与 `timings`（各阶段耗时），每个 pass 新增 `loadMs` / `collectMs` / `skipped`。完整字段语义见 `SKILL.md` 的「运行模式与性能」一节。
 
 ## 环境
 
